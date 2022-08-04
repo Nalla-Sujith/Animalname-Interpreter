@@ -35,7 +35,7 @@ export default function App() {
     setAnimalname(dummydata[item]);
   };
   var changehandler = (event) => {
-    var text = event.target.value;
+    var text = event.target.value.toUpperCase();
     if (text in dummydata) {
       setAlphabet(text);
       setAnimalname(dummydata[text]);
