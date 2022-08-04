@@ -1,4 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 .App {
-  font-family: sans-serif;
+  font-family: "Pacifico", cursive;
   text-align: center;
+}
+.text-box {
+  width: 40%;
+  height: 20vh;
+  margin-top: 2rem;
+  border: 0.12px solid black;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: "Pacifico", cursive;
+}
+h1 {
+  background-color: #5b21b6;
+  margin: auto;
+  color: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/** span item **/
+.span-item {
+  padding: 0.75rem;
+  margin: 0.2rem 0.2rem;
+  color: white;
+  background-color: #5b21b6;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: inline-block;
+}
+.item-container {
+  max-width: 40%;
+  margin: auto;
 }
